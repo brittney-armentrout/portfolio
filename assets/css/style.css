@@ -1,0 +1,185 @@
+body {
+  font-family: 'Mallanna', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 34px;
+  color: #777777;
+  background: url("../images/tree_bark.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h5 {
+  font-family: 'Delius Unicase', cursive;
+  font-weight: 700;
+  color:#d8740a;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 50px;
+  border-bottom: 3px solid #d8740a;
+}
+
+h2, h3 {
+  font-size: 22px;
+}
+
+/* header */
+
+.navbar-brand {
+  padding: 5px;
+  margin-left: 30px;
+  font-family: 'Delius Unicase', cursive;
+  font-size: 26px;
+  /* line-height: 90px; */
+  color: #ffffff;
+  letter-spacing: 10px;
+}
+
+.nav-item {
+  font-family: 'Delius Unicase', cursive;
+}
+
+.navbar {
+  border-bottom: 7px solid #d8740a;
+  height: 100px;
+}
+
+#tree-icon {
+  color: #d8740a;
+}
+
+#hintbox {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  background-color: lightyellow;
+  color: #343a40;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.parallax {
+  background-image: url(../images/dark-clouds.jpg);
+  /* Set a specific height */
+  min-height: 500px; 
+  width: 100%;
+  margin-top: 75px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bio-nav {
+  border: none;
+  height: 100px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  background: darkgray;
+}
+
+#bio-content {
+  padding: 0px;
+}
+
+#self-portrait {
+  width: auto;
+  min-height: 500px;
+  margin: 0px;
+}
+
+#cloud-code {
+  max-width: 600px;
+}
+
+h5 {
+  font-family: 'Delius Unicase', cursive;
+  color: #d8740a;
+  font-size: 20px;
+}
+
+p {
+  margin: 10px;
+  color: #343a40;
+}
+
+#nav-links {
+  margin-right: 25px;
+  color: white;
+}
+
+#elipses {
+  color: #343a40;
+  margin: 25px;
+}
+
+#resume-button {
+  margin: 20px;
+}
+
+h3 {
+  padding-bottom: 20px;
+  margin-left: 30px;
+  line-height: 22px;
+  border-bottom: 2px solid #eeeeee;
+  font-family: 'Delius Unicase', cursive;
+  color: #d8740a;
+  letter-spacing: 10px;
+
+}
+
+#detail-content {
+  padding: 0px 60px 0px 60px;
+}
+
+#project-nav {
+  border: none;
+  height: 100px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  background: darkgray;
+}
+.card {
+  margin: 50px;
+  margin-left: 50px;
+  max-width: 400px;
+  width: 75%;
+  border: 2px solid #d8740a;
+  
+}
+.card-title {
+  margin-top: 10px;
+}
+
+.card-deck {
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.card-text {
+  font-size: 15px;
+  line-height: auto;
+}
+
+/* footer */
+
+footer {
+ 
+  clear: both;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  background:#343a40;
+  border-top: 7px solid #d8740a;
+  height: 100px;
+  text-align: bottom;
+}
+
